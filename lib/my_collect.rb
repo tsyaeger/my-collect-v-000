@@ -6,7 +6,7 @@ def my_collect(collection)
     counter = 0
     languages = []
     while counter < collection.length 
-      languages << yield collection[counter]
+      languages << yield(collection[counter])
       counter += 1
     end
     
