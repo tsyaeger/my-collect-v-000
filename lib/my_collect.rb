@@ -9,7 +9,7 @@ def my_collect(collection)
       languages << yield(collection[counter])
       counter += 1
     end
-    
+    languages
   else
     "empty"
     
