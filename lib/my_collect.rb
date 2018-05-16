@@ -6,6 +6,7 @@ def my_collect(collection)
     counter = 0
     while counter < collection.length 
       puts collection[counter]
+      counter += 1
     end
     
     
