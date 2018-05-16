@@ -4,17 +4,15 @@ def my_collect(collection)
   
   if block_given?
     counter = 0
+    languages = []
     while counter < collection.length 
-      puts collection[counter]
+      languages << yield collection[counter]
       counter += 1
     end
-    
-    
     
   else
     
   end
-  
   
 end
 
