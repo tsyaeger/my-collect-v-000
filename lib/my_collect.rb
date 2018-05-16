@@ -4,12 +4,12 @@ def my_collect(collection)
   
   if block_given?
     counter = 0
-    languages = []
+    new_arr = []
     while counter < collection.length 
       languages << yield(collection[counter])
       counter += 1
     end
-    languages
+    new_arr
   else
     "empty"
     
