@@ -16,4 +16,3 @@ def my_collect(collection)
 end
 
 
-my_collect({|name| "Hi, #{name}" }
