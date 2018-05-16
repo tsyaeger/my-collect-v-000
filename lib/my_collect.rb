@@ -11,6 +11,7 @@ def my_collect(collection)
     end
     
   else
+    "empty"
     
   end
 end
